@@ -14,3 +14,4 @@ variable "labels" {
   description = "Please provide labels"
   type = map(any)
   default = {}
+}
