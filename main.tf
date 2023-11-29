@@ -6,13 +6,3 @@ resource "kubernetes_namespace" "example" {
   }
 }
 
-variable "annotations" {
-  description = "Please provide annotation"
-  type = map
-  default = {}
-}
-
-variable "labels" {
-  description = "Please provide labels"
-  type = map
-  default = {}
