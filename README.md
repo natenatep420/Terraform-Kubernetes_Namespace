@@ -2,7 +2,7 @@
 
 ### Copy paste this message into your terraform root
 ```
-module "namespace"  {
+module "namespace" {
   source  = "natenatep420/namespace/kubernetes"
 }
 ```
