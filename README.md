@@ -1,1 +1,1 @@
-# Terraform-Kubernetes_Namespace
+# terraform-kubernetes-namespace
