@@ -5,5 +5,12 @@
 module "namespace" {
   source  = "natenatep420/namespace/kubernetes"
   name = "test"
+  labels = {
+    environment = "dev"
+  }
+  annotations = {
+    managed_by = "terraform"
+  }
 }
+
 ```
