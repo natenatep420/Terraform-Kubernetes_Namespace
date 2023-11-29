@@ -11,3 +11,4 @@ resource "kubernetes_namespace" "example" {
     name = var.name
   }
 }
+
