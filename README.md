@@ -4,5 +4,6 @@
 ```
 module "namespace" {
   source  = "natenatep420/namespace/kubernetes"
+  name = "test"
 }
 ```
